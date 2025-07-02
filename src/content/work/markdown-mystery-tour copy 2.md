@@ -1,7 +1,7 @@
 ---
 title: Outil de supervision PAF
 publishDate: 2020-03-02 00:00:00
-img: /assets/projectPAF/image_statistiques.png
+img: /portfolio/assets/projectPAF/image_statistiques.png
 img_alt: Page de statistiques de l'application
 description: |
   Projet développé au cours de mon stage de fin d'année en master 2
@@ -65,8 +65,8 @@ Les fonctionnalités du back end que j'ai pu développer :
 
 ## Galerie
 
-  <img src="/assets/projectPAF/image_statistiques2.png" alt="Image 1" class="rounded-lg shadow"/>
-  <img src="/assets/projectPAF/image_error.png" alt="Image 2" class="rounded-lg shadow"/>
-  <img src="/assets/projectPAF/image_donneebrutes.png" alt="Image 3" class="rounded-lg shadow"/>
-  <img src="/assets/projectPAF/image_etats.png" alt="Image 4" class="rounded-lg shadow"/>
-  <img src="/assets/projectPAF/image_export.png" alt="Image 5" class="rounded-lg shadow"/>
+  <img src="${import.meta.env.BASE_URL}assets/projectPAF/image_statistiques2.png" alt="Image 1" class="rounded-lg shadow"/>
+  <img src="${import.meta.env.BASE_URL}assets/projectPAF/image_error.png" alt="Image 2" class="rounded-lg shadow"/>
+  <img src="${import.meta.env.BASE_URL}assets/projectPAF/image_donneebrutes.png" alt="Image 3" class="rounded-lg shadow"/>
+  <img src="${import.meta.env.BASE_URL}assets/projectPAF/image_etats.png" alt="Image 4" class="rounded-lg shadow"/>
+  <img src="${import.meta.env.BASE_URL}assets/projectPAF/image_export.png" alt="Image 5" class="rounded-lg shadow"/>

@@ -1,7 +1,7 @@
 ---
 title: AnimeHub - Suivi d'animes en ligne
 publishDate: 2025-01-010 00:00:00
-img: /assets/images-AnimeProject/image_homePage1bis.jpg
+img: /portfolio/assets/projectPAF/image_statistiques.png
 img_alt: Image de la page d'accueil de l'application
 description: |
   Un projet full-stack pour explorer, rechercher et gérer ses animes préférés grâce à l'API Jikan.
@@ -85,9 +85,9 @@ Le serveur Spring Boot assure :
 
 ## Galerie
 
-  <img src="/assets/images-AnimeProject/image_homePage2.png" alt="Image 1" class="rounded-lg shadow"/>
-  <img src="/assets/images-AnimeProject/image_homePage3.png" alt="Image 2" class="rounded-lg shadow"/>
-  <img src="/assets/images-AnimeProject/image_animeDetails1bis.png" alt="Image 3" class="rounded-lg shadow"/>
-  <img src="/assets/images-AnimeProject/image_animeDetails2.png" alt="Image 4" class="rounded-lg shadow"/>
+  <img src="${import.meta.env.BASE_URL}assets/images-AnimeProject/image_homePage2.png" alt="Image 1" class="rounded-lg shadow"/>
+  <img src="${import.meta.env.BASE_URL}assets/images-AnimeProject/image_homePage3.png" alt="Image 2" class="rounded-lg shadow"/>
+  <img src="${import.meta.env.BASE_URL}assets/images-AnimeProject/image_animeDetails1bis.png" alt="Image 3" class="rounded-lg shadow"/>
+  <img src="${import.meta.env.BASE_URL}assets/images-AnimeProject/image_animeDetails2.png" alt="Image 4" class="rounded-lg shadow"/>
 
 
