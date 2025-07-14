@@ -62,6 +62,6 @@ Un des défis majeurs a été que je devais m'auto-former sur une durée assez c
 
   <img src="/portfolio/assets/projectPAF/image_statistiques2.png" alt="Image 1" class="rounded-lg shadow"/>
   <img src="/portfolio/assets/projectPAF/image_error.png" alt="Image 2" class="rounded-lg shadow"/>
-  <img src="${import.meta.env.BASE_URL}/assets/projectPAF/image_donneebrutes.png" alt="Image 3" class="rounded-lg shadow"/>
-  <img src="${import.meta.env.BASE_URL}/assets/projectPAF/image_etats.png" alt="Image 4" class="rounded-lg shadow"/>
-  <img src="${import.meta.env.BASE_URL}/assets/projectPAF/image_export.png" alt="Image 5" class="rounded-lg shadow"/>
+  <img src="/portfolio/assets/projectPAF/image_donneebrutes.png" alt="Image 3" class="rounded-lg shadow"/>
+  <img src="/portfolio/assets/projectPAF/image_etats.png" alt="Image 4" class="rounded-lg shadow"/>
+  <img src="/portfolio/assets/projectPAF/image_export.png" alt="Image 5" class="rounded-lg shadow"/>

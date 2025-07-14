@@ -78,8 +78,8 @@ Un des défis majeurs a été de comprendre la relation parent-enfant entre les 
 
 ## Galerie
 
-  <img src="${import.meta.env.BASE_URL}/assets/projectManagement/image_taskDetails.png" alt="Image 1" class="rounded-lg shadow"/>
-  <img src="${import.meta.env.BASE_URL}/assets/projectManagement/image_taskList1.png" alt="Image 2" class="rounded-lg shadow"/>
-  <img src="${import.meta.env.BASE_URL}/assets/projectManagement/image_updateTask.png" alt="Image 3" class="rounded-lg shadow"/>
-  <img src="${import.meta.env.BASE_URL}/assets/projectManagement/image_addTask.png" alt="Image 4" class="rounded-lg shadow"/>
-  <img src="${import.meta.env.BASE_URL}/assets/projectManagement/image_calendar1.png" alt="Image 5" class="rounded-lg shadow"/>
+  <img src="/portfolio/assets/projectManagement/image_taskDetails.png" alt="Image 1" class="rounded-lg shadow"/>
+  <img src="/portfolio/assets/projectManagement/image_taskList1.png" alt="Image 2" class="rounded-lg shadow"/>
+  <img src="/portfolio/assets/projectManagement/image_updateTask.png" alt="Image 3" class="rounded-lg shadow"/>
+  <img src="/portfolio/assets/projectManagement/image_addTask.png" alt="Image 4" class="rounded-lg shadow"/>
+  <img src="/portfolio/assets/projectManagement/image_calendar1.png" alt="Image 5" class="rounded-lg shadow"/>
