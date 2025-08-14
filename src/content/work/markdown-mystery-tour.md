@@ -1,7 +1,7 @@
 ---
 title: AnimeHub - Suivi d'animes en ligne
 publishDate: 2025-01-010 00:00:00
-img: /portfolio/assets/projectPAF/image_statistiques.png
+img: /portfolio/assets/images-AnimeProject/image_homePage1bis.jpg
 img_alt: Image de la page d'accueil de l'application
 description: |
   Un projet full-stack pour explorer, rechercher et gérer ses animes préférés grâce à l'API Jikan.

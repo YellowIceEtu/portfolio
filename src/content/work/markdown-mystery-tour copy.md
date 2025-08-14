@@ -1,5 +1,5 @@
 ---
-title: Project Management - Gestion de projets et de tâches
+title: Project Management - Gestion de projets et de tâches (En cours de développement)
 publishDate: 2025-04-01 00:00:00
 img: /portfolio/assets/projectManagement/image_dashboard.png
 img_alt: Page du dashboard de l'application
@@ -11,7 +11,8 @@ tags:
   - Full Stack
   - Angular
   - Spring Boot
-  - Jikan API
+  - Tailwind CSS
+  - Docker
 ---
 
 ## Objectif du projet
@@ -34,16 +35,19 @@ L'interface a été développée pour être claire, responsive et agréable à u
 **Fonctionnalités disponibles après connexion :**
 
 - Ajout, modification ou suppression d'une tâche à l'aide d'un formulaire dynamique et responsive avec validation des champs
-- Visualisation de ses tâches de deux manières : - Sur un calendrier interactif (FullCalendar) - Sur une page dédiée listant les tâches triées par statut
+- Visualisation de ses tâches de deux manières : - Sur un calendrier interactif (FullCalendar) ou sous forme de liste par projet
 - Association d'utilisateurs aux tâches
 - Attribution d'un statut pour chaque tâche via une liste prédéfinie (à faire, en cours, terminée)
 - Dashboard permettant de visualiser la situation de l'utilisateur par rapport aux tâches
+- Visualisation de chaque projet, avec la possibilités de voir toutes les tâches d'un utilisateur appartenant au projet, ainsi que tous les membres appartenant au projet
+- Possibilité de consulter l'historique des actions effectuées dans le projet
+- Possibilité de rechercher un projet à partir de son nom
 
 ### Back end
 
 Le serveur Spring Boot assure :
 
-- Implémentation des entités Task, Project, User
+- Implémentation des entités Task, Project, User, History
 - Mise en place d'une API REST pour manipuler les entités du projet
 - La persistance des données via PostgreSQL
 - Contrôleurs REST pour exposer l'API
@@ -71,6 +75,7 @@ Un des défis majeurs a été de comprendre la relation parent-enfant entre les 
 - Travail avec des composants avancés comme FullCalendar
 - Utilisation des dialogues Angular pour améliorer l'expérience utilisateur et une navigation fluide
 - Utilisation des DTO pour plus de clarté et de sécurité.
+- Mise en place de la conteneurisation avec Docker, incluant la création d'un DockerFile et d'un fichier docker-compose.yml pour les services
 
 ## Lien du projet
 
@@ -83,3 +88,7 @@ Un des défis majeurs a été de comprendre la relation parent-enfant entre les 
   <img src="/portfolio/assets/projectManagement/image_updateTask.png" alt="Image 3" class="rounded-lg shadow"/>
   <img src="/portfolio/assets/projectManagement/image_addTask.png" alt="Image 4" class="rounded-lg shadow"/>
   <img src="/portfolio/assets/projectManagement/image_calendar1.png" alt="Image 5" class="rounded-lg shadow"/>
+  <img src="/portfolio/assets/projectManagement/image_project_details.png" alt="Image 6" class="rounded-lg shadow"/>
+  <img src="/portfolio/assets/projectManagement/image_project_members.png" alt="Image 7" class="rounded-lg shadow"/>
+  <img src="/portfolio/assets/projectManagement/image_project_search.png" alt="Image 8" class="rounded-lg shadow"/>
+  <img src="/portfolio/assets/projectManagement/image_tasks.png" alt="Image 9" class="rounded-lg shadow"/>
